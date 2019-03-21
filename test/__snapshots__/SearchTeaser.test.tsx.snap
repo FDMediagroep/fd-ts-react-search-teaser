@@ -1,0 +1,529 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Teaser renders bookmarked correctly 1`] = `
+<div
+  cardStyle="default"
+  className="fd-card fd-search-teaser default"
+  id="1286721"
+>
+  <a
+    href="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe"
+  >
+    <figure
+      className="fd-teaser-figure"
+    >
+      <picture>
+        <source
+          media="(max-width: 640px)"
+          srcSet="https://images.fd.nl/h7f0-gZo7t8HbiVhcWgo5x8HPaA.jpg?fit=crop&crop=faces&auto=format&fm=jpg&q=45&w=599&h=337&rect="
+        />
+        <source
+          media="(max-width: 860px)"
+          srcSet="https://images.fd.nl/h7f0-gZo7t8HbiVhcWgo5x8HPaA.jpg?fit=crop&crop=faces&auto=format&fm=jpg&q=45&w=115&h=115&rect="
+        />
+        <source
+          media="(min-width: 861px)"
+          srcSet="https://images.fd.nl/h7f0-gZo7t8HbiVhcWgo5x8HPaA.jpg?fit=crop&crop=faces&auto=format&fm=jpg&q=45&w=115&h=115&rect="
+        />
+        <img
+          alt="Amsterdam doet ertoe"
+          src="https://images.fd.nl/h7f0-gZo7t8HbiVhcWgo5x8HPaA.jpg?fit=crop&crop=faces&auto=format&fm=jpg&q=45&w=599&h=337&rect="
+        />
+      </picture>
+    </figure>
+    <div
+      className="meta"
+    >
+      <span
+        className="prefix"
+      >
+        Buitenland
+      </span>
+      <time>
+        34 min
+      </time>
+    </div>
+    <div
+      className="text-container"
+    >
+      <h1
+        className="fd-typography search-teaser-h"
+        textStyle="search-teaser-h"
+      >
+        Amsterdam doet ertoe
+      </h1>
+      <p
+        className="print-title"
+      >
+        <span>
+          Krantentitel: 
+        </span>
+        <span
+          className="print-title-text"
+        >
+          ‘
+          Amsterdam doet ertoe in de krant
+          ’
+        </span>
+      </p>
+      <p
+        className="intro"
+      >
+        Een wethouder Verkeer en Vervoer, in Davos? Zeker! Wethouder Sharon Dijksma legt op het World Economic Forum uit hoe Amsterdam omgaat met duurzame mobiliteit.
+      </p>
+    </div>
+  </a>
+  <nav
+    className="related"
+  >
+    <a
+      className="related-link longread"
+      href="https://dev.fd.nl/profiel/1235280/als-vrouw-moet-je-onafhankelijk-zijn"
+    >
+      <span
+        className="related-title"
+      >
+        "Als vrouw moet je altijd onafhankelijk zijn"
+      </span>
+      <i
+        className="icon-chevron-right"
+      />
+    </a>
+    <a
+      className="related-link"
+      href="https://dev.fd.nl/economie-politiek/1235274/president-van-de-amerikaanse-fed-hamert-op-onafhankelijkheid"
+    >
+      <span
+        className="related-title"
+      >
+        President van de Amerikaanse Fed hamert op onafhankelijkheid
+      </span>
+      <i
+        className="icon-chevron-right"
+      />
+    </a>
+  </nav>
+  <footer
+    className="fd-teaser-footer"
+  >
+    <menu>
+      <span
+        className="placeholder"
+      />
+      <span
+        className="share-social"
+      >
+        <i
+          className="icon-share-alt"
+          data-id="1286721"
+          data-section="Buitenland"
+          data-title="Amsterdam doet ertoe"
+          data-url="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe"
+          title="Delen"
+        />
+        <span
+          className="icon-label"
+        >
+          Delen
+        </span>
+      </span>
+      <span
+        className="favorite selected"
+        data-addurl="/add-favorite"
+        data-articleid="1286721"
+        data-deleteurl="/delete-favorite"
+        data-key="1286721"
+        data-title="Amsterdam doet ertoe"
+        data-url="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe"
+        id="favorite1286721"
+        title="Bewaren"
+      >
+        <i
+          className="icon-bookmark"
+          title="Bewaren"
+        />
+        <i
+          className="icon-bookmark1"
+          title="Verwijder van bewaarlijst"
+        />
+        <span
+          className="icon-label"
+        >
+          Bewaren
+        </span>
+      </span>
+      <a
+        className="comments-link"
+        data-articleid="1286721"
+        href="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe#comments"
+      >
+        <i
+          className="icon-comment-alt"
+        />
+        <span
+          className="comments-count"
+        >
+          1
+        </span>
+        <span
+          className="comments-suffix"
+        >
+          reactie
+        </span>
+      </a>
+    </menu>
+  </footer>
+</div>
+`;
+
+exports[`Search Teaser renders correctly 1`] = `
+<div
+  cardStyle="default"
+  className="fd-card fd-search-teaser default"
+  id="1286721"
+>
+  <a
+    href="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe"
+  >
+    <figure
+      className="fd-teaser-figure"
+    >
+      <picture>
+        <source
+          media="(max-width: 640px)"
+          srcSet="https://images.fd.nl/h7f0-gZo7t8HbiVhcWgo5x8HPaA.jpg?fit=crop&crop=faces&auto=format&fm=jpg&q=45&w=599&h=337&rect="
+        />
+        <source
+          media="(max-width: 860px)"
+          srcSet="https://images.fd.nl/h7f0-gZo7t8HbiVhcWgo5x8HPaA.jpg?fit=crop&crop=faces&auto=format&fm=jpg&q=45&w=115&h=115&rect="
+        />
+        <source
+          media="(min-width: 861px)"
+          srcSet="https://images.fd.nl/h7f0-gZo7t8HbiVhcWgo5x8HPaA.jpg?fit=crop&crop=faces&auto=format&fm=jpg&q=45&w=115&h=115&rect="
+        />
+        <img
+          alt="Amsterdam doet ertoe"
+          src="https://images.fd.nl/h7f0-gZo7t8HbiVhcWgo5x8HPaA.jpg?fit=crop&crop=faces&auto=format&fm=jpg&q=45&w=599&h=337&rect="
+        />
+      </picture>
+    </figure>
+    <div
+      className="meta"
+    >
+      <span
+        className="prefix"
+      >
+        Buitenland
+      </span>
+      <time>
+        34 min
+      </time>
+    </div>
+    <div
+      className="text-container"
+    >
+      <h1
+        className="fd-typography search-teaser-h"
+        textStyle="search-teaser-h"
+      >
+        Amsterdam doet ertoe
+      </h1>
+      <p
+        className="print-title"
+      >
+        <span>
+          Krantentitel: 
+        </span>
+        <span
+          className="print-title-text"
+        >
+          ‘
+          Amsterdam doet ertoe in de krant
+          ’
+        </span>
+      </p>
+      <p
+        className="intro"
+      >
+        Een wethouder Verkeer en Vervoer, in Davos? Zeker! Wethouder Sharon Dijksma legt op het World Economic Forum uit hoe Amsterdam omgaat met duurzame mobiliteit.
+      </p>
+    </div>
+  </a>
+  <nav
+    className="related"
+  >
+    <a
+      className="related-link longread"
+      href="https://dev.fd.nl/profiel/1235280/als-vrouw-moet-je-onafhankelijk-zijn"
+    >
+      <span
+        className="related-title"
+      >
+        "Als vrouw moet je altijd onafhankelijk zijn"
+      </span>
+      <i
+        className="icon-chevron-right"
+      />
+    </a>
+    <a
+      className="related-link"
+      href="https://dev.fd.nl/economie-politiek/1235274/president-van-de-amerikaanse-fed-hamert-op-onafhankelijkheid"
+    >
+      <span
+        className="related-title"
+      >
+        President van de Amerikaanse Fed hamert op onafhankelijkheid
+      </span>
+      <i
+        className="icon-chevron-right"
+      />
+    </a>
+  </nav>
+  <footer
+    className="fd-teaser-footer"
+  >
+    <menu>
+      <span
+        className="placeholder"
+      />
+      <span
+        className="share-social"
+      >
+        <i
+          className="icon-share-alt"
+          data-id="1286721"
+          data-section="Buitenland"
+          data-title="Amsterdam doet ertoe"
+          data-url="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe"
+          title="Delen"
+        />
+        <span
+          className="icon-label"
+        >
+          Delen
+        </span>
+      </span>
+      <span
+        className="favorite"
+        data-addurl="/add-favorite"
+        data-articleid="1286721"
+        data-deleteurl="/delete-favorite"
+        data-key="1286721"
+        data-title="Amsterdam doet ertoe"
+        data-url="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe"
+        id="favorite1286721"
+        title="Bewaren"
+      >
+        <i
+          className="icon-bookmark"
+          title="Bewaren"
+        />
+        <i
+          className="icon-bookmark1"
+          title="Verwijder van bewaarlijst"
+        />
+        <span
+          className="icon-label"
+        >
+          Bewaren
+        </span>
+      </span>
+      <a
+        className="comments-link"
+        data-articleid="1286721"
+        href="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe#comments"
+      >
+        <i
+          className="icon-comment-alt"
+        />
+        <span
+          className="comments-count"
+        >
+          1
+        </span>
+        <span
+          className="comments-suffix"
+        >
+          reactie
+        </span>
+      </a>
+    </menu>
+  </footer>
+</div>
+`;
+
+exports[`Search Teaser renders multiple comments correctly 1`] = `
+<div
+  cardStyle="default"
+  className="fd-card fd-search-teaser default"
+  id="1286721"
+>
+  <a
+    href="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe"
+  >
+    <figure
+      className="fd-teaser-figure"
+    >
+      <picture>
+        <source
+          media="(max-width: 640px)"
+          srcSet="https://images.fd.nl/h7f0-gZo7t8HbiVhcWgo5x8HPaA.jpg?fit=crop&crop=faces&auto=format&fm=jpg&q=45&w=599&h=337&rect="
+        />
+        <source
+          media="(max-width: 860px)"
+          srcSet="https://images.fd.nl/h7f0-gZo7t8HbiVhcWgo5x8HPaA.jpg?fit=crop&crop=faces&auto=format&fm=jpg&q=45&w=115&h=115&rect="
+        />
+        <source
+          media="(min-width: 861px)"
+          srcSet="https://images.fd.nl/h7f0-gZo7t8HbiVhcWgo5x8HPaA.jpg?fit=crop&crop=faces&auto=format&fm=jpg&q=45&w=115&h=115&rect="
+        />
+        <img
+          alt="Amsterdam doet ertoe"
+          src="https://images.fd.nl/h7f0-gZo7t8HbiVhcWgo5x8HPaA.jpg?fit=crop&crop=faces&auto=format&fm=jpg&q=45&w=599&h=337&rect="
+        />
+      </picture>
+    </figure>
+    <div
+      className="meta"
+    >
+      <span
+        className="prefix"
+      >
+        Buitenland
+      </span>
+      <time>
+        34 min
+      </time>
+    </div>
+    <div
+      className="text-container"
+    >
+      <h1
+        className="fd-typography search-teaser-h"
+        textStyle="search-teaser-h"
+      >
+        Amsterdam doet ertoe
+      </h1>
+      <p
+        className="print-title"
+      >
+        <span>
+          Krantentitel: 
+        </span>
+        <span
+          className="print-title-text"
+        >
+          ‘
+          Amsterdam doet ertoe in de krant
+          ’
+        </span>
+      </p>
+      <p
+        className="intro"
+      >
+        Een wethouder Verkeer en Vervoer, in Davos? Zeker! Wethouder Sharon Dijksma legt op het World Economic Forum uit hoe Amsterdam omgaat met duurzame mobiliteit.
+      </p>
+    </div>
+  </a>
+  <nav
+    className="related"
+  >
+    <a
+      className="related-link longread"
+      href="https://dev.fd.nl/profiel/1235280/als-vrouw-moet-je-onafhankelijk-zijn"
+    >
+      <span
+        className="related-title"
+      >
+        "Als vrouw moet je altijd onafhankelijk zijn"
+      </span>
+      <i
+        className="icon-chevron-right"
+      />
+    </a>
+    <a
+      className="related-link"
+      href="https://dev.fd.nl/economie-politiek/1235274/president-van-de-amerikaanse-fed-hamert-op-onafhankelijkheid"
+    >
+      <span
+        className="related-title"
+      >
+        President van de Amerikaanse Fed hamert op onafhankelijkheid
+      </span>
+      <i
+        className="icon-chevron-right"
+      />
+    </a>
+  </nav>
+  <footer
+    className="fd-teaser-footer"
+  >
+    <menu>
+      <span
+        className="placeholder"
+      />
+      <span
+        className="share-social"
+      >
+        <i
+          className="icon-share-alt"
+          data-id="1286721"
+          data-section="Buitenland"
+          data-title="Amsterdam doet ertoe"
+          data-url="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe"
+          title="Delen"
+        />
+        <span
+          className="icon-label"
+        >
+          Delen
+        </span>
+      </span>
+      <span
+        className="favorite"
+        data-addurl="/add-favorite"
+        data-articleid="1286721"
+        data-deleteurl="/delete-favorite"
+        data-key="1286721"
+        data-title="Amsterdam doet ertoe"
+        data-url="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe"
+        id="favorite1286721"
+        title="Bewaren"
+      >
+        <i
+          className="icon-bookmark"
+          title="Bewaren"
+        />
+        <i
+          className="icon-bookmark1"
+          title="Verwijder van bewaarlijst"
+        />
+        <span
+          className="icon-label"
+        >
+          Bewaren
+        </span>
+      </span>
+      <a
+        className="comments-link"
+        data-articleid="1286721"
+        href="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe#comments"
+      >
+        <i
+          className="icon-comment-alt"
+        />
+        <span
+          className="comments-count"
+        >
+          99
+        </span>
+        <span
+          className="comments-suffix"
+        >
+          reacties
+        </span>
+      </a>
+    </menu>
+  </footer>
+</div>
+`;
