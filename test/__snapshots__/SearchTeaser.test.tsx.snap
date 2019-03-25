@@ -110,8 +110,9 @@ exports[`Search Teaser renders bookmarked correctly 1`] = `
       <span
         className="placeholder"
       />
-      <span
+      <a
         className="share-social"
+        href="javascript: void(0);"
       >
         <i
           className="icon-share-alt"
@@ -126,8 +127,8 @@ exports[`Search Teaser renders bookmarked correctly 1`] = `
         >
           Delen
         </span>
-      </span>
-      <span
+      </a>
+      <a
         className="favorite selected"
         data-addurl="/add-favorite"
         data-articleid="1286721"
@@ -135,6 +136,7 @@ exports[`Search Teaser renders bookmarked correctly 1`] = `
         data-key="1286721"
         data-title="Amsterdam doet ertoe"
         data-url="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe"
+        href="javascript: void(0);"
         id="favorite1286721"
         title="Bewaren"
       >
@@ -151,7 +153,7 @@ exports[`Search Teaser renders bookmarked correctly 1`] = `
         >
           Bewaren
         </span>
-      </span>
+      </a>
       <a
         className="comments-link"
         data-articleid="1286721"
@@ -286,8 +288,9 @@ exports[`Search Teaser renders correctly 1`] = `
       <span
         className="placeholder"
       />
-      <span
+      <a
         className="share-social"
+        href="javascript: void(0);"
       >
         <i
           className="icon-share-alt"
@@ -302,8 +305,8 @@ exports[`Search Teaser renders correctly 1`] = `
         >
           Delen
         </span>
-      </span>
-      <span
+      </a>
+      <a
         className="favorite"
         data-addurl="/add-favorite"
         data-articleid="1286721"
@@ -311,6 +314,7 @@ exports[`Search Teaser renders correctly 1`] = `
         data-key="1286721"
         data-title="Amsterdam doet ertoe"
         data-url="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe"
+        href="javascript: void(0);"
         id="favorite1286721"
         title="Bewaren"
       >
@@ -327,7 +331,7 @@ exports[`Search Teaser renders correctly 1`] = `
         >
           Bewaren
         </span>
-      </span>
+      </a>
       <a
         className="comments-link"
         data-articleid="1286721"
@@ -462,8 +466,9 @@ exports[`Search Teaser renders multiple comments correctly 1`] = `
       <span
         className="placeholder"
       />
-      <span
+      <a
         className="share-social"
+        href="javascript: void(0);"
       >
         <i
           className="icon-share-alt"
@@ -478,8 +483,8 @@ exports[`Search Teaser renders multiple comments correctly 1`] = `
         >
           Delen
         </span>
-      </span>
-      <span
+      </a>
+      <a
         className="favorite"
         data-addurl="/add-favorite"
         data-articleid="1286721"
@@ -487,6 +492,7 @@ exports[`Search Teaser renders multiple comments correctly 1`] = `
         data-key="1286721"
         data-title="Amsterdam doet ertoe"
         data-url="https://fd.nl/economie-politiek/1286721/amsterdam-doet-er-toe"
+        href="javascript: void(0);"
         id="favorite1286721"
         title="Bewaren"
       >
@@ -503,7 +509,7 @@ exports[`Search Teaser renders multiple comments correctly 1`] = `
         >
           Bewaren
         </span>
-      </span>
+      </a>
       <a
         className="comments-link"
         data-articleid="1286721"
