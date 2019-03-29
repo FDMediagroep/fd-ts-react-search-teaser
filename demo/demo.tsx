@@ -48,17 +48,7 @@ class App extends PureComponent<any, any> {
             date: "17 Nov 1981",
             title: "Amsterdam doet ertoe",
             printTitle: "Amsterdam doet ertoe",
-            description: "Een wethouder Verkeer en Vervoer, in Davos? Zeker! Wethouder Sharon Dijksma legt op het World Economic Forum uit hoe Amsterdam omgaat met duurzame mobiliteit.",
-            related: [{
-                longread: true,
-                title: '"Als vrouw moet je altijd onafhankelijk zijn"',
-                url: 'https://dev.fd.nl/profiel/1235280/als-vrouw-moet-je-onafhankelijk-zijn',
-                uuid: uniqid()
-            }, {
-                title: 'President van de Amerikaanse Fed hamert op onafhankelijkheid',
-                url: 'https://dev.fd.nl/economie-politiek/1235274/president-van-de-amerikaanse-fed-hamert-op-onafhankelijkheid',
-                uuid: uniqid()
-            }]
+            description: "Een wethouder Verkeer en Vervoer, in Davos? Zeker! Wethouder Sharon Dijksma legt op het World Economic Forum uit hoe Amsterdam omgaat met duurzame mobiliteit."
         }
     };
 

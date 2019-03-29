@@ -73,36 +73,6 @@ exports[`Search Teaser renders bookmarked correctly 1`] = `
       </p>
     </div>
   </a>
-  <nav
-    className="related"
-  >
-    <a
-      className="related-link longread"
-      href="https://dev.fd.nl/profiel/1235280/als-vrouw-moet-je-onafhankelijk-zijn"
-    >
-      <span
-        className="related-title"
-      >
-        "Als vrouw moet je altijd onafhankelijk zijn"
-      </span>
-      <i
-        className="icon-chevron-right"
-      />
-    </a>
-    <a
-      className="related-link"
-      href="https://dev.fd.nl/economie-politiek/1235274/president-van-de-amerikaanse-fed-hamert-op-onafhankelijkheid"
-    >
-      <span
-        className="related-title"
-      >
-        President van de Amerikaanse Fed hamert op onafhankelijkheid
-      </span>
-      <i
-        className="icon-chevron-right"
-      />
-    </a>
-  </nav>
   <footer
     className="fd-teaser-footer"
   >
@@ -251,36 +221,6 @@ exports[`Search Teaser renders correctly 1`] = `
       </p>
     </div>
   </a>
-  <nav
-    className="related"
-  >
-    <a
-      className="related-link longread"
-      href="https://dev.fd.nl/profiel/1235280/als-vrouw-moet-je-onafhankelijk-zijn"
-    >
-      <span
-        className="related-title"
-      >
-        "Als vrouw moet je altijd onafhankelijk zijn"
-      </span>
-      <i
-        className="icon-chevron-right"
-      />
-    </a>
-    <a
-      className="related-link"
-      href="https://dev.fd.nl/economie-politiek/1235274/president-van-de-amerikaanse-fed-hamert-op-onafhankelijkheid"
-    >
-      <span
-        className="related-title"
-      >
-        President van de Amerikaanse Fed hamert op onafhankelijkheid
-      </span>
-      <i
-        className="icon-chevron-right"
-      />
-    </a>
-  </nav>
   <footer
     className="fd-teaser-footer"
   >
@@ -429,36 +369,6 @@ exports[`Search Teaser renders multiple comments correctly 1`] = `
       </p>
     </div>
   </a>
-  <nav
-    className="related"
-  >
-    <a
-      className="related-link longread"
-      href="https://dev.fd.nl/profiel/1235280/als-vrouw-moet-je-onafhankelijk-zijn"
-    >
-      <span
-        className="related-title"
-      >
-        "Als vrouw moet je altijd onafhankelijk zijn"
-      </span>
-      <i
-        className="icon-chevron-right"
-      />
-    </a>
-    <a
-      className="related-link"
-      href="https://dev.fd.nl/economie-politiek/1235274/president-van-de-amerikaanse-fed-hamert-op-onafhankelijkheid"
-    >
-      <span
-        className="related-title"
-      >
-        President van de Amerikaanse Fed hamert op onafhankelijkheid
-      </span>
-      <i
-        className="icon-chevron-right"
-      />
-    </a>
-  </nav>
   <footer
     className="fd-teaser-footer"
   >

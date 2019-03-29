@@ -1,6 +1,6 @@
 {
   "name": "@fdmg/fd-search-teaser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "FD-themed default search-teaser",
   "types": "dist/SearchTeaser.d.ts",
   "main": "dist/search-teaser.js",
@@ -39,7 +39,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.9",
-    "@types/react": "^16.8.6",
+    "@types/react": "^16.8.10",
     "@types/react-dom": "^16.8.3",
     "@types/react-test-renderer": "^16.8.1",
     "@types/styled-components": "4.1.12",
@@ -53,7 +53,7 @@
     "har-validator": "^5.1.3",
     "jest": "^24.1.0",
     "jest-cli": "^24.1.0",
-    "react-test-renderer": "^16.8.5",
+    "react-test-renderer": "^16.8.6",
     "ts-jest": "^24.0.0",
     "tslint": "^5.13.1",
     "tslint-react": "^3.6.0",
@@ -64,9 +64,9 @@
   "dependencies": {
     "@fdmg/fd-card": "^1.0.9",
     "@fdmg/fd-teaser": "^1.0.7",
-    "@fdmg/fd-typography": "^1.0.29",
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5",
+    "@fdmg/fd-typography": "^1.0.31",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "styled-components": "^4.2.0",
     "uniqid": "^5.0.3"
   },

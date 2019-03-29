@@ -27,7 +27,6 @@ export interface Props {
     printTitle?: string;
     onBookmark?: (e: React.MouseEvent<HTMLElement>) => void;
     readableAge: string;
-    related?: RelatedArticle[];
     shareTitle?: string;
     sourceSets?: SourceSet[];
     subject: string;
@@ -63,9 +62,6 @@ export default class SearchTeaser extends PureComponent<Props, any> {
                             {this.props.description ? <p className="intro">{this.props.description}</p> : null}
                         </div>
                     </a>
-                    {this.props.hideRelated ? null : <TeaserRelated
-                        items={this.props.related}
-                    />}
                     {this.props.hideFooter ? null : <TeaserFooter
                         baseUrl={this.props.baseUrl}
                         bookmarked={this.props.bookmarked}

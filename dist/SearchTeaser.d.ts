@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 import { CardTypes } from "@fdmg/fd-card";
-import { ImageType, RelatedArticle, Theme } from "@fdmg/fd-teaser";
+import { ImageType, Theme } from "@fdmg/fd-teaser";
 export interface SourceSet {
     media: '(max-width: 640px)' | '(max-width: 860px)' | '(min-width: 861px)';
     srcSet: string;
@@ -23,7 +23,6 @@ export interface Props {
     printTitle?: string;
     onBookmark?: (e: React.MouseEvent<HTMLElement>) => void;
     readableAge: string;
-    related?: RelatedArticle[];
     shareTitle?: string;
     sourceSets?: SourceSet[];
     subject: string;
