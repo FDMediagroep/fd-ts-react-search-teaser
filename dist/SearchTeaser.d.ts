@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import { CardTypes } from "@fdmg/fd-card";
 import { ImageType, Theme } from "@fdmg/fd-teaser";
 export interface SourceSet {
@@ -31,10 +31,8 @@ export interface Props {
     updated?: boolean;
     url: string;
 }
-export default class SearchTeaser extends PureComponent<Props, any> {
-    render(): JSX.Element;
-}
+export default function SearchTeaser(props: Props): JSX.Element;
 /**
  * Used for the FD Style Guide Kitchensink
  */
-export declare const SearchTeaserStyle: import("styled-components").GlobalStyleComponent<{}, import("styled-components").DefaultTheme>;
+export declare const SearchTeaserStyle: import("styled-components").FlattenSimpleInterpolation;

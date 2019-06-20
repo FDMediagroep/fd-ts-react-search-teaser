@@ -1,8 +1,8 @@
-import React, { PureComponent } from "react";
-import { createGlobalStyle } from "styled-components";
+import React from "react";
+import { createGlobalStyle, css } from "styled-components";
 import Card, { getAllCardStyles, CardTypes } from "@fdmg/fd-card";
 import TypoGraphy, {getAllTextStyles} from "@fdmg/fd-typography";
-import { ImageType, RelatedArticle, Theme, TeaserFigure, UpdateLabel, TeaserRelated, TeaserFooter, UpdateLabelStyle, TeaserFigureStyle, TeaserRelatedStyle, TeaserFooterStyle } from "@fdmg/fd-teaser";
+import { ImageType, Theme, TeaserFigure, UpdateLabel, TeaserFooter, UpdateLabelStyle, TeaserFigureStyle, TeaserRelatedStyle, TeaserFooterStyle } from "@fdmg/fd-teaser";
 
 export interface SourceSet {
     media: '(max-width: 640px)' | '(max-width: 860px)' | '(min-width: 861px)';
@@ -36,53 +36,51 @@ export interface Props {
     url: string;
 }
 
-export default class SearchTeaser extends PureComponent<Props, any> {
-    render() {
-        return (
-            <>
-                <GlobalStyle/>
-                <Card cardStyle={this.props.cardStyle ? this.props.cardStyle : 'default'} id={this.props.id} className={`fd-search-teaser${this.props.className ? ` ${this.props.className}` : ''}${this.props.hideMeta ? ' no-meta' : ''}`}>
-                    <a href={this.props.url}>
-                        <TeaserFigure
-                            figCaption={this.props.figCaption}
-                            image={this.props.image}
-                            sourceSets={this.props.sourceSets}
-                            theme={this.props.theme}
-                        />
-                        {this.props.hideMeta ? null : <div className="meta">
-                            {this.props.updated ? <UpdateLabel/> : <span className="prefix">{this.props.subject}</span>}
-                            <time>{this.props.readableAge}</time>
-                        </div>}
-                        <div className="text-container">
-                            <TypoGraphy textStyle="search-teaser-h"><h1>{this.props.title}</h1></TypoGraphy>
-                            {this.props.printTitle ? <p className="print-title">
-                                <span>Krantentitel: </span>
-                                <span className="print-title-text">‘{this.props.printTitle}’</span>
-                            </p> : null}
-                            {this.props.description ? <p className="intro">{this.props.description}</p> : null}
-                        </div>
-                    </a>
-                    {this.props.hideFooter ? null : <TeaserFooter
-                        baseUrl={this.props.baseUrl}
-                        bookmarked={this.props.bookmarked}
-                        comments={this.props.comments}
-                        date={this.props.date}
-                        description={this.props.description}
-                        hashTags={this.props.hashTags}
-                        onBookmark={this.props.onBookmark}
-                        shareTitle={this.props.shareTitle}
-                        subject={this.props.subject}
-                        teaserId={this.props.id}
-                        title={this.props.title}
-                        url={this.props.url}
-                    />}
-                </Card>
-            </>
-        );
-    }
+export default function SearchTeaser(props: Props) {
+    return (
+        <>
+            <GlobalStyle/>
+            <Card cardStyle={props.cardStyle ? props.cardStyle : 'default'} id={props.id} className={`fd-search-teaser${props.className ? ` ${props.className}` : ''}${props.hideMeta ? ' no-meta' : ''}`}>
+                <a href={props.url}>
+                    <TeaserFigure
+                        figCaption={props.figCaption}
+                        image={props.image}
+                        sourceSets={props.sourceSets}
+                        theme={props.theme}
+                    />
+                    {props.hideMeta ? null : <div className="meta">
+                        {props.updated ? <UpdateLabel/> : <span className="prefix">{props.subject}</span>}
+                        <time>{props.readableAge}</time>
+                    </div>}
+                    <div className="text-container">
+                        <TypoGraphy textStyle="search-teaser-h"><h1>{props.title}</h1></TypoGraphy>
+                        {props.printTitle ? <p className="print-title">
+                            <span>Krantentitel: </span>
+                            <span className="print-title-text">‘{props.printTitle}’</span>
+                        </p> : null}
+                        {props.description ? <p className="intro">{props.description}</p> : null}
+                    </div>
+                </a>
+                {props.hideFooter ? null : <TeaserFooter
+                    baseUrl={props.baseUrl}
+                    bookmarked={props.bookmarked}
+                    comments={props.comments}
+                    date={props.date}
+                    description={props.description}
+                    hashTags={props.hashTags}
+                    onBookmark={props.onBookmark}
+                    shareTitle={props.shareTitle}
+                    subject={props.subject}
+                    teaserId={props.id}
+                    title={props.title}
+                    url={props.url}
+                />}
+            </Card>
+        </>
+    );
 }
 
-const GlobalStyle = createGlobalStyle`
+const styles = css`
 .fd-search-teaser {
     font-family: 'ProximaNovaRegular', Helvetica, sans-serif;
 
@@ -191,15 +189,17 @@ const GlobalStyle = createGlobalStyle`
 }
 `;
 
+const GlobalStyle = createGlobalStyle`${styles}`;
+
 /**
  * Used for the FD Style Guide Kitchensink
  */
-export const SearchTeaserStyle = createGlobalStyle`
-${getAllCardStyles().globalStyle.rules}
-${getAllTextStyles(['search-teaser-h']).globalStyle.rules}
-${(UpdateLabelStyle as any).globalStyle.rules}
-${(TeaserFigureStyle as any).globalStyle.rules}
-${(TeaserRelatedStyle as any).globalStyle.rules}
-${(TeaserFooterStyle as any).globalStyle.rules}
-${(GlobalStyle as any).globalStyle.rules}
+export const SearchTeaserStyle = css`
+${getAllCardStyles()}
+${getAllTextStyles(['search-teaser-h'])}
+${UpdateLabelStyle}
+${TeaserFigureStyle}
+${TeaserRelatedStyle}
+${TeaserFooterStyle}
+${styles}
 `;
