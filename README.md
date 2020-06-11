@@ -1,20 +1,27 @@
+> :exclamation: **DEPRECATED** :exclamation: : Superseded by @fdmg/design-system. See: https://github.com/FDMediagroep/fd-design-system
+
 [![Build Status](https://travis-ci.org/FDMediagroep/fd-ts-react-search-teaser.svg?branch=master)](https://travis-ci.org/FDMediagroep/fd-ts-react-search-teaser)
 [![Coverage Status](https://coveralls.io/repos/github/FDMediagroep/fd-ts-react-search-teaser/badge.svg?branch=master)](https://coveralls.io/github/FDMediagroep/fd-ts-react-search-teaser?branch=master)
 [![npm version](https://badge.fury.io/js/%40fdmg%2Ffd-search-teaser.svg)](https://badge.fury.io/js/%40fdmg%2Ffd-search-teaser)
 [![Greenkeeper badge](https://badges.greenkeeper.io/FDMediagroep/fd-ts-react-search-teaser.svg)](https://greenkeeper.io/)
 
 # fd-search-teaser
+
 FD-themed search teaser.
 
 # Installation
-* Run `npm i -D @fdmg/fd-search-teaser`
+
+-   Run `npm i -D @fdmg/fd-search-teaser`
 
 # Demo
+
 To run the demo, check-out this repository and run `npm run build-demo`.
 After the build succeeded you can open `dist/demo.html` with your webbrowser.
-* [Demo](http://static.fd.nl/react/teaser/demo.html)
+
+-   [Demo](http://static.fd.nl/react/teaser/demo.html)
 
 # Usage
+
 ```
 import SearchTeaser from '@fdmg/fd-search-teaser';
 ...
